@@ -1,6 +1,6 @@
 {
   "name": "create-dd-app",
-  "version": "0.3.0",
+  "version": "0.5.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -28,11 +28,12 @@
   },
   "dependencies": {
     "dotenv": "^10.0.0",
+    "fs-extra": "^10.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "rimraf": "^2.7.1"
   },
   "bin": {
-    "create-dd-app": "./generate-app.js"
+    "create-dd-app": "./bin/generate-app.js"
   }
 }
