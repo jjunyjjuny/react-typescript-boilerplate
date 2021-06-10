@@ -24,7 +24,9 @@
     "noEmit": false, // 컴파일러가 js 파일 등 출력 결과물을 만들어 낼 것인가
     "noEmitOnError": true, // 에러 발생시 js 소스코드, source map, declaration 등이 생성되지 않는다
     //
-    "noUnusedLocals": false // 사용되지 않는 지역 변수에 대해 에러를 발생시킬 것인가
+    "noUnusedLocals": false,
+    "downlevelIteration": true
+    // 사용되지 않는 지역 변수에 대해 에러를 발생시킬 것인가
   },
   "include": ["src"],
   "exclude": ["node_modules"]
