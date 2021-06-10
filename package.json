@@ -1,6 +1,6 @@
 {
   "name": "create-dd-app",
-  "version": "0.5.0",
+  "version": "0..0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -34,6 +34,6 @@
     "rimraf": "^2.7.1"
   },
   "bin": {
-    "create-dd-app": "./bin/generate-app.js"
+    "create-dd-app": "./generate-app.js"
   }
 }
