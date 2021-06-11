@@ -1,12 +1,14 @@
 {
   "name": "create-dd-app",
-  "version": "0.5.5",
+  "version": "0.6.0",
   "description": "dd`s TS+React boilerplate",
-  "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack serve --open --hot --progress",
     "start": "cross-env NODE_ENV=development webpack --progress",
     "build": "cross-env NODE_ENV=production webpack --progress"
+  },
+  "bin": {
+    "create-dd-app": "./bin/generate-app.js"
   },
   "keywords": [
     "react",
@@ -37,9 +39,6 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "rimraf": "^2.7.1"
-  },
-  "bin": {
-    "create-dd-app": "./bin/generate-app.js"
   },
   "homepage": "https://github.com/jjunyjjuny/react-typescript-boilerplate",
   "repository": {
