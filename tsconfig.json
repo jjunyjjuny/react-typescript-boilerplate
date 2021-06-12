@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
     "target": "es5", // 컴파일 된 결과물이 어느 버전의 ECMAScript를 따를 것인지
-    "lib": ["DOM", "DOM.Iterable", "ESNext"], // 컴파일 시 포함시켜야하는 javascript 내장 API들의 타입 정의에 대한 정보들
     "module": "esnext", // 프로그램에서 사용할 모듈 시스템. import/export 코드가 어떤 방식의 코드로 컴파일 될지 결정한다
+    "strict": true, // strict family 속성 전부를 true로 할 것인가
+    "esModuleInterop": true, // es module 사용시 컴파일 단계에서 헬퍼 함수를 사용할 것인가
+    "lib": ["DOM", "DOM.Iterable", "ESNext"], // 컴파일 시 포함시켜야하는 javascript 내장 API들의 타입 정의에 대한 정보들
     "allowJs": true, // js files를 허용할 것인가
     "jsx": "react", // jsx 코드를 어떻게 컴파일 할 것인가
     "baseUrl": "./", // 비상대적 import 모듈 해석시 기준이 되는 경로
     "moduleResolution": "Node", // 모듈 해석 전략. 웬만해선 node로 고정할 것
     "sourceMap": true, // map 파일을 생성할 것인가
-    "esModuleInterop": true, // es module 사용시 컴파일 단계에서 헬퍼 함수를 사용할 것인가
-    "strict": true, // strict family 속성 전부를 true로 할 것인가
     "noImplicitAny": false, // any 타입으로 구현된 표현식 혹은 정의를 에러처리 할 것인가
     "isolatedModules": true, // 각 파일을 분리된 모듈로 트랜스파일링할 것인가
     "forceConsistentCasingInFileNames": true, // 사용할 파일의 이름을 대소문자까지 정확하게 작성하도록 강제할 것인가
