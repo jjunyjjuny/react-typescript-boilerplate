@@ -1,5 +1,9 @@
-# React + TypeScript boilerplate 
+# React + TypeScript boilerplate
 
-CRA에 의존하지 말고, 최소한의 환경을 직접 구성해보자
+This boilerplate was created for the purpose of studying how to configure React + TypeScript environment without using CRA.
 
-## install 
+So there may be some shortcomings
+
+## install
+
+> npx create-dd-app {APP_NAME}
