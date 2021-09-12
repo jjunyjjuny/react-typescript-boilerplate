@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 
 module.exports = {
   mode: isProd ? "production" : "development",
-  devtool: isProd ? "hidden-source-map" : "source-map",
+  devtool: isProd ? "hidden-source-map" : "inline-source-map",
   entry: "./src/index.tsx",
   output: {
     filename: "[name].js",
@@ -25,6 +25,11 @@ module.exports = {
         options: {
           transpileOnly: isProd ? false : true,
         },
+      },
+      {
+        test: /\.(js|jsx)$/,
+        exclude: "/node_modules/",
+        loader: "babel-loader",
       },
       {
         test: /\.css?$/,
