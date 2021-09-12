@@ -1,6 +1,6 @@
-# create-dd-app
+# react-typescript-bolierplate
 
-`create-dd-app` is boilerplate for React + TypeScript environment without using CRA.
+boilerplate for React + TypeScript environment without using CRA.
 
 this boilerplate supports the following.
 
